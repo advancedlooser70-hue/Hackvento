@@ -80,7 +80,7 @@ const Hero = () => {
       <motion.div className="hero-content" variants={container} initial="hidden" animate="visible">
         <motion.div className="left" variants={item}>
           <h1 className="st-title">
-            STRANGER<br />THINGS
+            HACKVENTO
           </h1>
           <motion.p className="st-desc" variants={item}>
             When the lights begin to flicker and reality bends,
