@@ -87,9 +87,11 @@ const Hero = () => {
             a hidden world awakens beneath Hawkins.
             Some doors, once opened, can never be closed.
           </motion.p>
+          <a href="https://vision.hack2skill.com/event/gdgoc-25-ietdavv" target="_blank">
           <motion.button className="st-btn" variants={item}>
             Enter the Upside Down
           </motion.button>
+            </a>
         </motion.div>
 
         <motion.div className="right" variants={item}>
