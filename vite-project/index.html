@@ -7,6 +7,18 @@
     <title>Hackvento</title>
   </head>
   <body>
+    <audio id="bg-music" loop>
+      <source src="/music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script>
+      // This script waits for the user to click anywhere, then starts the music
+      document.addEventListener('click', function() {
+        var audio = document.getElementById("bg-music");
+        audio.play();
+        audio.volume = 0.5; // Set volume to 50% (optional)
+      }, { once: true }); // This ensures it only runs on the first click
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
