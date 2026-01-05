@@ -93,7 +93,9 @@ const Hero = () => {
           </motion.button>
             </a>
         </motion.div>
-
+ <div className="fire-reveal" ref={revealRef}></div>
+    </div>
+  )
        
 
       
