@@ -94,11 +94,9 @@ const Hero = () => {
             </a>
         </motion.div>
         <motion.div className="right" variants={item}>
-          <h1 className="st-title">The Mind Flayer</h1>
+          <h1 className="st-title"></h1>
           <motion.p className="st-text" variants={item}>
-            Shadows creep from another dimension, consuming everything in their path.
-            Unravel the mystery and face the darkness head-on.
-            Will you survive the terror of the Upside Down?
+            
           </motion.p>
         </motion.div>
       </motion.div>
