@@ -96,8 +96,7 @@ const Hero = () => {
 
        
 
-      <div className="fire-reveal" ref={revealRef}></div>
-    </div>
+      
   )
 }
 
